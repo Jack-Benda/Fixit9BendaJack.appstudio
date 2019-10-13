@@ -10,6 +10,7 @@
       "BootstrapTheme": "bootstrap", 
       "EULA": null, 
       "FastClick": "false", 
+      "PWA_Manifest": null, 
       "appPublisher": "", 
       "background": "", 
       "backgroundimage": "", 
@@ -40,6 +41,22 @@
             "membership", 
             "membership.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Calculator", 
+            "Calculator.json"
+          ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "twoControls", 
+            "twoControls.json"
+          ]
         }
       ], 
       "configxml": null, 
@@ -56,13 +73,14 @@
       "exetitle": "", 
       "expanded_pmp": null, 
       "extraheaders": null, 
-      "firstform": "palindrome", 
+      "firstform": "login", 
       "fontFamily": "system", 
       "height": "", 
       "homescreenTitle": "", 
       "icon": "nsb/images/LauncherIcon57.png", 
       "iconAndroid": "nsb/images/192.png", 
       "id": "App1", 
+      "jqWidgetsLicence": "", 
       "language": "JavaScript", 
       "manifest": null, 
       "manifestFile": "appcache", 
